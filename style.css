@@ -1,0 +1,103 @@
+body {
+    background-color: #0F1010;
+}
+
+.contentContainer {
+    max-width: 100%;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 17px;
+}
+
+.backgroundOverlay {
+    background-image: url("./assets/backgroundOverlay.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    opacity: 0.87;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.mainPage{
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.contactInfoContainer {
+    padding-top: 200px;
+}
+
+.profilePicture {
+    width: 55%;
+    height: auto;
+    border-radius: 500px 500px 500px 500px;
+}
+
+.nameTitle {
+    color: #B4B4B4;
+    font-size: 90px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 6px #4c576b;
+}
+.nameSubtitle {
+    margin-top: 0%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #758398;
+}
+
+.detailContainer {
+    margin-top: 50px;
+}
+
+.detailItem {
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #B4B4B4;
+    margin-bottom: 15px;
+    font-size: 17px;
+    text-shadow: 0 0 6px #4c576b;
+
+}
+
+.buttonContainer {
+    margin-top: 80px;
+    display: flex;
+    justify-content: left; /* Center the button within the container horizontally */
+    align-items: center; /* Center the button within the container vertically */
+}
+
+.mainButton {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: center; /* Centers the items horizontally */
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    color: #009BDF; /* Text color - changed to white to be visible on the blue background */
+    background-color: #009BDF; /* Button background color */
+    border-style: solid;
+    border-width: 20px 50px;
+    border-radius: 80px;
+    padding: 0; /* Reset padding as it's handled by border-width for button size */
+    text-align: center;
+    cursor: pointer; /* Changes cursor to pointer on hover over the button */
+    text-decoration: none; /* Removes underline from text if it's an anchor tag */
+}
+
+.mainButtonIcon {
+    max-width: 25px;
+    margin-right: 8px; /* Space between the icon and the text */
+}
+
+.mainButtonText {
+    color: white; /* Ensures text is white */
+    letter-spacing: -1px;
+    text-shadow: 0 0 1px #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
