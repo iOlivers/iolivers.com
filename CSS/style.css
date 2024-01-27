@@ -1,0 +1,211 @@
+body {
+    background-color: #0F1010;
+}
+
+
+
+.contentContainer {
+    max-width: 100%;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 17px;
+}
+
+.backgroundOverlay {
+    background-image: url("../assets/backgroundOverlay.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    opacity: 0.87;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.contactInfoContainer {
+    padding-top: 200px;
+}
+
+.profilePicture {
+    width: 33.698vw;
+    height: auto;
+    border-radius: 500px 500px 500px 500px;
+    z-index: 2;
+}
+
+.nameTitle {
+    flex-shrink: 1;
+    color: #B4B4B4;
+    font-size: 90px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 6px #4c576b;
+}
+.nameSubtitle {
+    margin-top: 0%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #758398;
+}
+
+.detailContainer {
+    margin-top: 50px;
+}
+
+.detailItem {
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #B4B4B4;
+    margin-bottom: 15px;
+    font-size: 17px;
+    text-shadow: 0 0 6px #4c576b;
+
+}
+
+.buttonContainer {
+    margin-top: 80px;
+    display: flex;
+    justify-content: left; 
+    align-items: center; 
+}
+
+.mainButton {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    color: #009BDF; 
+    background-color: #009BDF; 
+    border-style: solid;
+    border-width: 20px 50px;
+    border-radius: 80px;
+    padding: 0; 
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer; 
+    text-decoration: none; 
+}
+
+.mainButtonIcon {
+    max-width: 25px;
+    margin-right: 8px; 
+}
+
+.mainButtonText {
+    color: white;
+    letter-spacing: -1px;
+    text-shadow: 0 0 1px #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.linkedInNote {
+    color: rgb(94, 8, 8);
+    font-weight: bolder;
+    max-width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Main Page Responsive Queries */
+
+@media (min-width: 1659px) {
+    .profilePicture {
+        position: absolute;
+        left: 50vw;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1659px) {
+    .profilePicture {
+        position: absolute;
+        left: 55vw;
+    }
+    .backgroundOverlay {
+        background-size: 50%;
+    }
+}
+
+@media (min-width: 1065px) and (max-width: 1400px) {
+    .profilePicture {
+        position: absolute;
+        left: 55vw;
+    }
+    .backgroundOverlay {
+        background-size: 50%;
+    }
+    .contactInfoContainer {
+        padding-top: 50px;
+        scale: 0.85;
+        margin-right: 50%;
+    }
+    .contentContainer {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1065px) {
+    .contactInfoContainer {
+        padding-top: 50px;
+        scale: 0.85;
+        margin-right: 50%;
+    }
+    .profilePicture {
+        position: absolute;
+        top: 10vw;
+        left: 45vw;
+    }
+    .backgroundOverlay {
+        background-size: 50%;
+    }
+    .contentContainer {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 950px) {
+    .mainPage {
+        text-align: center;
+    }
+    .nameTitle {
+        margin-top: -50px;
+    }
+    .contactInfoContainer {
+        text-align: center;
+        scale: 0.80;
+        margin: 0;
+        padding: 0;
+    }
+    .buttonContainer {
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: center;
+    }
+    .profilePicture {
+        position: relative;
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+    .mainButton {
+        margin-bottom: 15px;
+    }
+    .backgroundOverlay {
+        background-size: 100%;
+    }
+    .contentContainer {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .linkedInNote {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
