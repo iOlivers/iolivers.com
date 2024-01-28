@@ -1,0 +1,24 @@
+.aboutPage {
+    margin-top: 200px;
+}
+
+.aboutDivider {
+    background-color: #436395;
+    width: 80%;
+    height: 3.5px;
+    margin-left: 5%;
+}
+
+.aboutHeader {
+    color: #009bdf;
+    font-size: 35px;
+}
+
+.aboutDescription {
+    width: 90%;
+    color: #929292;
+    font-family: 'Barlow Semi Condensed',sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 1.5;
+}
