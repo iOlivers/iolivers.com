@@ -1,0 +1,114 @@
+.skillsPage{
+    width: 100%;
+    background-image: linear-gradient(to bottom right,rgb(255, 255, 255),#0F1010);
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 15%;
+    padding-right: 20%;
+    display: flex;
+}
+.skillsBox {
+    width: 30%;
+}
+
+.projectBox {
+    width: 50%;
+}
+
+.skillsHeader {
+    font-size: 50px;
+}
+
+.projectHeader {
+    font-size: 50px;
+}
+
+.skill {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.progressBarFull {
+    background-color: #009BDF;
+    width: 80%;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+    font-size: 70%;
+    margin-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 30px;
+}
+
+.progressBar90 {
+    background-color: #009BDF;
+    width: 70%;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+    font-size: 70%;
+    margin-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 30px;
+}
+
+.projectDescription {
+    width: 55%;
+    font-weight: bolder;
+    font-family: Arial;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    margin-top: -25px;
+}
+
+.projectCarousel {
+    margin-top: 50px;
+    min-width: 350px;
+    max-width: 60%;
+    text-align: center;
+}
+
+.projectHolder {
+    margin: auto;
+    height: 80%;
+    width: 80%;
+    background-color: #333a3a;
+    text-align: center;
+    border: 4px solid rgb(59, 2, 2);
+    border-radius: 30px;
+}
+
+.carouselButton {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #009BDF;
+    background-color: #009BDF;
+    margin: 7px;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-img {
+    text-align: center;
+    border: 4px solid black;
+    width: 95%;
+    border-radius: 30px;
+}
+
+.projectTitle {
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 0 0 6px #4c576b;
+}
