@@ -6,6 +6,10 @@ document.getElementById('GithubButton').addEventListener('click', function() {
     window.open('https://github.com/iOlivers', '_blank');
 }, true);
 
+document.getElementById('homeButton').addEventListener('click', function() {
+    window.location.href = 'https://iolivers.com';
+}, true);
+
 
 let slideV = 0;
 
