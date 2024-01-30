@@ -13,7 +13,7 @@ document.getElementById('homeButton').addEventListener('click', function() {
 
 let slideV = 0;
 
-const sourceImg = ["Bluetooth Gym Occupancy Tracker", "HTML/CSS Portfolio Site","Webscrapping Discord Chat Bot"];
+const sourceImg = ["Webscrapping Discord Chat Bot","IoT Gym Occupancy Tracker", "HTML/CSS Portfolio Site"];
 
 function slide(n){
     slideV += n;
@@ -23,7 +23,7 @@ function slide(n){
         slideV = sourceImg.length - 1;
     }
 
-    document.querySelector('.carousel-img').src = "assets/Project0" + (slideV + 1) + ".png";
+    document.querySelector('.carousel-img').src = "assets/Project" + (slideV + 1) + ".png";
     document.querySelector('.projectTitle').textContent = sourceImg[slideV];
 }
 
@@ -35,4 +35,9 @@ document.getElementById('Next').addEventListener('click', function() {
 document.getElementById('Prev').addEventListener('click', function() {
     slide(-1);
     console.log(slideV);
+}, true);
+
+document.getElementById('viewProjectButton').addEventListener('click', function() {
+    window.location.href = window.location.href + '/Projects/project' + (slideV + 1) + '.html';
+    console.log(window.location.href);
 }, true);
