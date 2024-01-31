@@ -38,6 +38,6 @@ document.getElementById('Prev').addEventListener('click', function() {
 }, true);
 
 document.getElementById('viewProjectButton').addEventListener('click', function() {
-    window.location.href = window.location.href + '/Projects/project' + (slideV + 1) + '.html';
+    window.location.href = window.location.href + 'Projects/project' + (slideV + 1) + '.html';
     console.log(window.location.href);
 }, true);
