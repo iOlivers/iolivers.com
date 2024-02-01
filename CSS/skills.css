@@ -116,20 +116,20 @@
     font-family: sans-serif;
     text-shadow: 0 0 6px #4c576b;
 }
-
-.carouselButton:hover {
-    color: white;
-    font-weight: bold;
-    border: 2px solid #8cc3db;
-    background-color: #8cc3db;
-    margin: 7px;
-    width: 150px;
-    border-radius: 20px;
-    padding: 10px;
-    cursor: pointer;
-    transition: all 0.2s linear;
+@media (pointer: fine) {
+    .carouselButton:hover {
+        color: white;
+        font-weight: bold;
+        border: 2px solid #8cc3db;
+        background-color: #8cc3db;
+        margin: 7px;
+        width: 150px;
+        border-radius: 20px;
+        padding: 10px;
+        cursor: pointer;
+        transition: all 0.2s linear;
+    }
 }
-
 @media (min-width: 0px) and (max-width: 950px) {
     
     .skillsPage {

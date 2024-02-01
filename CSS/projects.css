@@ -6,7 +6,7 @@ html, body {
   }
 
 body {
-    background-color: transparent;
+    background-color: #0F1010;
     background-image: linear-gradient(270deg, #0F1010 0%, #0D254D 100%);
 }
 
@@ -132,38 +132,39 @@ body {
     color: yellow;
     font-weight: 600;
 }
-
-.returnButton:hover {
-    color: white;
-    font-weight: bold;
-    border: 2px solid #8cc3db;
-    background-color: #8cc3db;
-    width: 300px;
-    height: 50px;
-    border-radius: 20px;
-    padding: 10px;
-    cursor: pointer;
-    margin-bottom: 20px;
-    transition: all 0.2s linear;
+@media (pointer: fine) {
+    .returnButton:hover {
+        color: white;
+        font-weight: bold;
+        border: 2px solid #8cc3db;
+        background-color: #8cc3db;
+        width: 300px;
+        height: 50px;
+        border-radius: 20px;
+        padding: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        transition: all 0.2s linear;
+    }
+}
+@media (pointer: fine) {
+    .githubButton:hover {
+        color: white;
+        font-weight: bold;
+        border: 2px solid #794242;
+        background-color: #794242;
+        width: 300px;
+        height: 50px;
+        border-radius: 20px;
+        padding: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        transition: all 0.2s linear;
+    }
 }
 
-.githubButton:hover {
-    color: white;
-    font-weight: bold;
-    border: 2px solid #794242;
-    background-color: #794242;
-    width: 300px;
-    height: 50px;
-    border-radius: 20px;
-    padding: 10px;
-    cursor: pointer;
-    margin-bottom: 20px;
-    transition: all 0.2s linear;
-}
 
-
-
-@media (min-width: 0px) and (max-width: 950px) {
+@media (min-width: 0px) and (max-width: 1240px) {
     .contentContainer {
         margin-right: 0%;
         margin-left: 0%;
