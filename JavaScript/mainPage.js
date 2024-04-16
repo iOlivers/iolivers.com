@@ -13,7 +13,7 @@ document.getElementById('homeButton').addEventListener('click', function() {
 
 let slideV = 0;
 
-const sourceImg = ["Webscrapping Discord Chat Bot","IoT Gym Occupancy Tracker", "HTML/CSS Portfolio Site"];
+const sourceImg = ["Wifi-Enabled Total Dissolved Solids Water Sensor","Webscrapping Discord Chat Bot","IoT Gym Occupancy Tracker", "HTML/CSS Portfolio Site","Network Socket Based Terminal & GUI Connect 4"];
 
 function slide(n){
     slideV += n;

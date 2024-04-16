@@ -18,19 +18,31 @@
             </div>
             <div class="mainPage">
                 <div class="divider"></div>
-                <div class="projectTitle">Webscrapping Discord Chat Bot</div>
+                <div class="projectTitle">Wifi-Enabled<br>Total Dissolved Solids Water Sensor</div>
                 <img class = "projectImage" src = "../assets/Project1.png"></img>
                 <br>
                 <div class = "spacer"></div>
                 <span class = "statusPrompt">Status:</span>
-                <span class = "statusYellow">Archived</span>
+                <span class = "statusGreen">Active</span>
                 <br>
                 <div class = "spacer"></div>
                 <span class = "toolsPrompt">Tools Used:</span>
-                <span class = "tools">JavaScript, Node.js, Discord.js, Puppeteer.js</span>
+                <span class = "tools">C, ESP8266, ADS1115 ADC Board, Analog TDS Meter</span>
                 <div class="divider"></div>
-                <div class = "projectDescription">During my transition into my undergraduate studies at Brock University I created a discord server for first-year incoming students. The discord server, which grew to have 3000+ students, utilized a discord chat bot that I created to provide tons of students essential news and information about Brock University. I developed a Discord bot using JavaScript with Discord.js (Node.js library). The bot used webscrapping techniques with Puppeteer.js if the data was not able to be received through GET requests. Some of the functionality included giving live arrival times in chat for Niagara region transit busses arriving at Brock University from and also directly notifying members about any Brock related news that has been posted on the Brock University website.</div>
-                <div class = "notice">Note: This project is archived. This means all or parts of this project are no longer functional but some or all parts of it have been saved.</div>
+                <div class = "projectDescription">This project was designed as a solution to monitoring my fish aquarium water. 
+                  A Total Dissolved Solids (TDS) Sensor simply quantifies dissolved solids in water and is measures in parts per million. (ppm)
+                  It does this by essentially having a probe and outputs a signal based on the conductivity of the water which increases
+                  the less "distilled" the water is.
+                  <br><br>
+                  For this project I used a spare ESP8266 board and programmed it using the Arduino IDE to handle the readings and act as a local web server
+                  to display a (fairly) accurate value. Since the TDS sensor is analog (measurement is based on actual voltage) I used an analog-to-digital
+                  ADS1115 board as a intermediate step between the sensor and the ESP. <br><br>I calibrated the device by comparing it to plastic bottled mineral water from
+                  multiple different brands and tested it until consistently gave me reasonably accurate values when comparing it to the actual ppm level marked on the label of the water
+                  bottle.
+
+                </div>
+                <button id = "githubButton" class = "githubButton" data-url="https://gist.github.com/iOlivers/97e825b50c84a84475e76ce2e165934e">View source on Github</button>
+                <br>
                 <button id = "returnButton" class = "returnButton">Go Back</button>
             </div>
         </div>

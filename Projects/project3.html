@@ -18,20 +18,19 @@
             </div>
             <div class="mainPage">
                 <div class="divider"></div>
-                <div class="projectTitle">HTML/CSS Portfolio Site</div>
+                <div class="projectTitle">IoT Gym Population Counter</div>
                 <img class = "projectImage" src = "../assets/Project3.png"></img>
                 <br>
                 <div class = "spacer"></div>
                 <span class = "statusPrompt">Status:</span>
-                <span class = "statusGreen">Active</span>
+                <span class = "statusYellow">Archived</span>
                 <br>
                 <div class = "spacer"></div>
                 <span class = "toolsPrompt">Tools Used:</span>
-                <span class = "tools">HTML, CSS, JavaScript, Nginx</span>
+                <span class = "tools">Raspberry Pi, React.js, Python, HTML, CSS, BluePy, Mosquitto (MQTT Broker)</span>
                 <div class="divider"></div>
-                <div class = "projectDescription">This project is my personal site. The one you are currently visiting. The purpose of this website was simply to create a "digital business card" and showcase some of the projects I have worked on. My goal for this project was to create the site using pure HTML/CSS and JavaScript without using any "pre-built" tools or web builders and also have it look decent on mobile devices. The site is hosted on my linux virtual private server using Nginx.</div>
-                <button id = "githubButton3" class = "githubButton">View source on Github</button>
-                <br>
+                <div class = "projectDescription">For this project I have created a website using React.js which displayed whether my small local gym was busy in real time, this allowed me to workout when the gym was quiet and most of the equipment was available. For this project I used a Raspberry Pi Zero (Mini Single Board Computer) which would scan for Bluetooth devices in the gym on a set interval. It did this by utilizing a custom python script I wrote along with the bluepy library. Based on the amount of devices it found the code would strategically filter the results and make an accurate estimate on how many people are at the gym and communicate that using an MQTT broker hosted on my virtual private server to the site.</div>
+                <div class = "notice">Note: This project is archived. This means all or parts of this project are no longer functional but some or all parts of it have been saved.</div>
                 <button id = "returnButton" class = "returnButton">Go Back</button>
             </div>
         </div>
